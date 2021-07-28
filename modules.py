@@ -260,5 +260,3 @@ class readCsvFiles():
                 return loan
             else:
                 return "ID doesn't exist"
-obj = readCsvFiles('./Bingy/loan2.txt').read_csv(3)
-print(obj)
